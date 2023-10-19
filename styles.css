@@ -13,3 +13,69 @@ body {
   justify-content: center;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
+
+.container {
+  background-color: #000;
+  opacity: 0.8;
+  border-radius: 1.5625rem;
+  padding: 1.25rem;
+  width: 95%;
+  max-width: 28.125rem;
+}
+
+.input-cidade {
+  border: none;
+  outline: none;
+  border-radius: 1.25rem;
+  padding: 0.625rem;
+  font-size: 1.25rem;
+  background-color: #7c7c7c2b;
+  color: #fff;
+  width: calc(100% - 53px);
+}
+
+.btn-busca {
+  border: none;
+  outline: none;
+  padding: 0.625rem;
+  border-radius: 50%;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.img-busca {
+  width: 1.25rem;
+}
+
+.caixa-media {
+  margin-top: 1.875rem;
+}
+
+.cidade {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.temp {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.texto-previsao {
+  color: #fff;
+  margin-left: 1.25rem;
+}
+
+.umidade {
+  color: #fff;
+  margin-top: 1.25rem;
+}
